@@ -1,0 +1,74 @@
+.ownMessage {
+    width: fit-content;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #00b0ff;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.friendMessage {
+    width: fit-content;
+    max-width: 40%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #757575;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.chatSection {
+    width: 100% !important;
+    height: 84vh;
+    margin: auto;
+}
+
+.borderRight500 {
+    border-right: 3px solid #00b0ff;
+}
+
+.msgAvatar {
+    background-color: #1a651a !important;
+    color: #fff !important;
+    &_female {
+        background-color: #ff1a8c !important;
+        color: #fff !important;
+    }
+}
+
+.seenAvatar {
+    background-color: #1a651a !important;
+    color: #fff !important;
+    display: inline-flex !important;
+    width: 17px !important;
+    height: 17px !important;
+    margin-left: 4px !important;
+    font-size: 10px !important;
+    align-self: center;
+    &_female {
+            background-color: #ff1a8c !important;
+            color: #fff !important;
+            display: inline-flex !important;
+            width: 17px !important;
+            height: 17px !important;
+            margin-left: 4px !important;
+            font-size: 10px !important;
+            align-self: center;
+    }
+}
+
+.emoji-picker-react, .emoji-picker-react input, .emoji-picker-react .emoji-group::before {
+    background:rgba(153, 153, 153, 0.8) !important;
+    color: #fff !important;
+}
+
+.emoji_menu ul[role="menu"] {
+    padding: 0 !important;
+}
+
+.activeFriend {
+    border: 3px solid #00b0ff !important;
+    border-right: none!important;
+    cursor: default !important;
+}

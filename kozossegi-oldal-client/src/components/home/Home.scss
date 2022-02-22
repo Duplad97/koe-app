@@ -1,0 +1,17 @@
+.homeAvatar {
+    background-color: #1a651a !important;
+    color: #fff !important;
+    &_female {
+        background-color: #ff1a8c !important;
+        color: #fff !important;
+    }
+}
+
+.homeCardHeader {
+    //width: fit-content;
+    cursor: pointer;
+}
+
+.homeCardHeader:hover {
+    background-color: rgba(0, 0, 0, .07)
+}

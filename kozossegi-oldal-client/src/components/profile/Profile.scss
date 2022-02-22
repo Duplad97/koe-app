@@ -1,0 +1,134 @@
+.profile_container {
+    /*margin-top: 20px;*/
+    padding: 20px;
+}
+
+.profile_avatar {
+    width: 250px !important;
+    height: 250px !important;
+    background-color: #1a651a !important;
+    color: #fff !important;
+    font-size: 100px !important;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+
+    &_female {
+        width: 250px !important;
+        height: 250px !important;
+        background-color: #ff1a8c  !important;
+        color: #fff !important;
+        font-size: 100px !important;
+        box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+    }
+}
+
+.tab_avatar {
+    background-color: #1a651a !important;
+    color: #fff !important;
+
+    &_female {
+        background-color: #ff1a8c  !important;
+        color: #fff !important;
+    }
+}
+
+.src {
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+}
+
+.src:hover {
+    border: 4px solid #00b0ff;
+}
+
+.MuiTabs-flexContainer {
+    justify-content: space-between !important;
+}
+
+.tabs .MuiTabs-flexContainer {
+    justify-content: center !important;
+}
+
+.tabs button {
+    cursor: default;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
+
+.hidden {
+    display: none !important;
+}
+
+.list {
+    width: 90%
+}
+
+.headerBox {
+    display: flex;
+}
+
+.profileName {
+    display: inline-block !important;
+    width: 80%;
+    font-weight: bold !important;
+}
+
+.detailsBox {
+    display:block;
+}
+
+.avatarGrid {
+    display: flex;
+    justify-content: center;
+}
+.avatarBox {
+    text-align: center;
+}
+.avatarButton {
+    margin-top: 25px !important;
+    margin-right: -35px !important;
+    display: inline-flex;
+    &_none {
+        margin-top: 25px !important;
+    }
+}
+
+.uploadLabel {
+    display: flex;
+    vertical-align: middle;
+
+}
+.uploadBtn {
+    border-bottom: 1px solid !important;
+    border-radius: 0px !important;
+    &_err {
+        color: #f44336 !important;
+        border-bottom: 1px solid#f44336 !important;
+        border-radius: 0px !important;
+    }
+}
+
+.menuButton {
+    display: inline-block;
+    width: 20%;
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.uploadDialogContent {
+    display: 
+    flex !important;
+}
+
+.uploadAvatar {
+    width: 45px !important;
+    height: 45px !important;
+    margin-right: 10px !important;
+}
+
+.detailIcon {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px !important;
+}

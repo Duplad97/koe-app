@@ -1,0 +1,88 @@
+.quizzes{
+    &_div {
+        height: 70vh !important;
+        overflow: auto !important;
+        /*box-shadow: inset 0px 11px 8px -10px #333333,
+        inset 0px -11px 8px -10px #333333 !important;*/
+        &_own {
+            height: 65vh !important;
+            overflow: auto !important;
+            margin-top: 15px !important;
+        }
+    }
+
+    &_avatar {
+        background-color: #1a651a !important;
+        color: #fff !important;
+        &_female {
+            background-color: #ff1a8c  !important;
+            color: #fff !important;
+        }
+    }
+}
+
+.scores_list_text {
+    display: inline-block;
+}
+
+.scores_list_paper {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    border: 2px solid #00b0ff;
+    justify-content: space-evenly;
+}
+
+.playQuiz {
+    &_container {
+        height: 85vh !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: -60px !important;
+    }
+
+    &_cardGrid {
+        text-align: center !important;
+    }
+}
+
+.guess {
+    background-color: #ff9900 !important;
+    border: 1px solid #fff !important;
+}
+
+/*.correct {
+    background-color: #00b33c !important;
+    border: 1px solid #fff !important;
+}*/
+
+.wrong {
+    animation: wrong-anim 0.8s infinite;
+}
+
+@keyframes wrong-anim {
+    0%, 49% {
+        background-color: #ff0000;
+        border: 1px solid #fff;
+    }
+    50%, 100% {
+        background-color: #cc0000;
+        border: 1px solid #fff;
+    }
+}
+
+.correct {
+    animation: correct-anim 0.8s infinite;
+}
+  
+@keyframes correct-anim {
+    0%, 49% {
+        background-color: #00b300;
+        border: 1px solid #fff;
+    }
+    50%, 100% {
+        background-color: #008000;
+        border: 1px solid #fff;
+    }
+}

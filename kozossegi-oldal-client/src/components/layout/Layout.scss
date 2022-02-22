@@ -1,0 +1,67 @@
+.icon {
+    color: #001721;
+}
+
+.avatarIcon {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 17px !important;
+    background-color: #1a651a !important;
+    color: #fff !important;
+    margin: 0px !important;
+}
+
+.avatarIconFemale {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 17px !important;
+    background-color: #ff1a8c !important;
+    color: #fff !important;
+    margin: 0px !important;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 20px !important;
+}
+
+.notiAvatar {
+    /*height: 30px !important;
+    width: 30px !important;
+    font-size: 17px !important;*/
+    margin-right: 7px;
+    background-color: #1a651a !important;
+    color: #fff !important;
+    &_female {
+        /*height: 30px !important;
+        width: 30px !important;
+        font-size: 17px !important;*/
+        margin-right: 7px;
+        background-color: #ff1a8c !important;
+        color: #fff !important;
+    }
+}
+
+.notiText {
+    font-size: 14px !important;
+}
+
+.notiTitle {
+    text-align: center !important;
+    font-weight: bold !important;
+    margin-top: -9px !important;
+    margin-bottom: 5px !important;
+}
+
+#notistack-snackbar {
+    width: 100% !important;
+}
+
+.snackbarAvatar {
+    background-color: #1a651a !important;
+    color: #fff !important;
+    &_female {
+        background-color: #ff1a8c !important;
+        color: #fff !important;
+    }
+}
